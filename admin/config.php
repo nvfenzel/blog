@@ -1,6 +1,6 @@
 <?php
 
-define('RUTA', 'http://localhost/host/index.php');
+define('RUTA', 'http://localhost/host/');
 
 $bd_config = array(
     'basedatos' => 'curso_blog',

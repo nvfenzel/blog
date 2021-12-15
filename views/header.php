@@ -17,11 +17,12 @@
     <header>
         <div class="contenedor">
             <div class="logo izquierda">
-                <p><a href="#"> Mi primer blog</a></p>
+                <p><a href="index.php"> Mi primer blog</a></p>
             </div>
             <div class="derecha">
-                <form name="busqueda" class="buscar" action="<?php echo RUTA; ?>/buscar.php" method="GET">
+                <form name="busqueda" class="buscar" action="buscar.php" method="GET">
                     <input type="text" name="busqueda" placeholder="Buscar">
+                    <!--  autocomplete="off" si pongo dentro del onput eso no autocompleta -->
                     <button type="submit" class="fa fa-search"></button>
                 </form>
                 <nav class="menu">
